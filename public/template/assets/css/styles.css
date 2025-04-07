@@ -1,0 +1,267 @@
+/* contact.css */
+/* ========== CONTACT SECTION ========== */
+.contact {
+    background: #f8f9fa;
+    padding: 80px 0;
+}
+
+.map-container {
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.info-card {
+    background: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    background: #0d6efd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+    margin: 0 auto;
+}
+
+.map-link {
+    display: inline-flex;
+    align-items: center;
+    color: #0d6efd;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.map-link:hover {
+    color: #0b5ed7;
+    text-decoration: none;
+}
+
+.map-link i {
+    transition: transform 0.3s;
+}
+
+.map-link:hover i {
+    transform: translate(3px, -3px);
+}
+
+/* ========== PORTFOLIO SECTION ========== */
+.portfolio-wrap {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.portfolio-wrap:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), transparent);
+    color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.portfolio-wrap:hover .portfolio-info {
+    opacity: 1;
+}
+
+.portfolio-links {
+    margin-top: 10px;
+}
+
+.portfolio-links a {
+    color: rgb(0, 0, 0);
+    margin-right: 15px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.portfolio-links a:hover {
+    color: #0d6efd;
+}
+
+.github-stats {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #0d6efd;
+}
+
+.github-stats span {
+    margin-right: 10px;
+}
+
+.github-stats i {
+    margin-right: 3px;
+}
+
+/* ========== RESUME/TIMELINE SECTION ========== */
+.timeline-badge {
+    position: absolute;
+    left: -38px;
+    top: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0d6efd;
+    border: 3px solid white;
+    z-index: 2;
+}
+
+.resume-title:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 50px;
+    height: 3px;
+    background: linear-gradient(to right, #0d6efd, #8bb8ff);
+}
+
+.card {
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.resume-card {
+    position: relative;
+    padding-left: 30px;
+}
+
+.timeline-item {
+    position: relative;
+}
+
+/* ========== FOOTER SECTION ========== */
+.footer {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 80px 0 40px;
+    overflow: hidden;
+    position: relative;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.quote-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+    opacity: 0.2;
+    margin-bottom: 20px;
+}
+
+.footer-quote {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #212529;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-quote p {
+    position: relative;
+}
+
+.blockquote-footer {
+    color: #6c757d;
+    font-size: 1rem;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #010101;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+    background: #dcdcdc;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(13, 110, 253, 0.3);
+}
+
+.copyright {
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.footer-decoration {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.decoration-circle {
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(13, 110, 253, 0.05);
+}
+
+.circle-1 {
+    width: 300px;
+    height: 300px;
+    top: -100px;
+    left: -100px;
+}
+
+.circle-2 {
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    right: -50px;
+}
+
+.circle-3 {
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    right: 10%;
+}
+
+/* ========== MEDIA QUERIES ========== */
+@media (max-width: 768px) {
+    .footer-quote {
+        font-size: 1.2rem;
+    }
+}
